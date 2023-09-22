@@ -1,0 +1,225 @@
+body{
+    background-color:#fff;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+}
+
+.navbar{
+    position:fixed;
+    top:0%;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color:black;
+    width:100%;
+    height:70px;
+    border-radius:5%;  
+}
+.logo{width:5%;} .text{width:20%;} .menu{width:50%} .search{width:18%;margin-right:0px;border:grey 2px solid;}
+.navbar .logo img{
+    margin-left:1%;
+    width:60px;
+    height:60px;
+    padding-bottom:8px;
+    object-fit: cover;
+}
+
+.text p{  
+    font-size:25px;
+    float: left;
+    color:white;
+    text-transform:uppercase;
+    margin-left:2%;
+    padding-left:0;
+
+    
+}
+ul{
+    text-decoration:none;
+    float:right;
+}
+
+li{
+    display:inline-flex;
+    float:left;
+    list-style:none;
+}
+li a{
+    
+    text-decoration:none;
+}
+
+.menu a{
+    margin-right:15px;
+    color:#000;
+    text-transform:uppercase;
+    margin-right:35px;
+    padding:0px;
+    color:white;
+}
+
+.menu a:hover{
+    color:#000;
+    background-color: darkgrey;
+    padding:8px;
+    border-radius:10px;
+    transition: 0.5s ease-in-out;
+    align-items: center;
+}
+.search{margin-bottom:8px;}
+.search input{
+width:72%;
+padding:2px;
+}
+.search text{
+color:brown;
+}
+.search button{
+    float:right;
+}
+.hightlight p{
+    padding:15px 100px;
+    text-align:justify;
+}
+#contact a{
+text-decoration:none;
+text-align:center;
+padding:20px;
+    color: #7b7c7c;
+    font-size:1.5rem;
+}
+#contact{
+    display:flex;
+    position:asolute;
+    align-items:center;
+    justify-items: center;
+    top:50%;
+    left:50%;
+    width:100%;
+    height: 90vh;
+    margin-bottom:5px;
+}
+.social{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:100px;
+    align-items:center;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    box-shadow:2px 2px 30px rgba(0,0,0,2.1);
+}
+.social a i:hover{
+    color:#000000;
+font-size:2rem;
+    transition:all ease 1s;
+}
+.contact-box{
+    margin-left:5px;
+    background-color:#BE9A9A;
+    display:flex;
+    flex-direction:column;
+    border-radius:5%;
+    justify-content:center;
+    align-items:center;
+    padding:30px 30px;
+    box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+}
+.c-heading h1{
+    font-family:Roboto;
+    color:#e7eef3;
+    font-size:2.5rem;
+    font-weight:lighter;
+    margin:0px;
+    padding:0px;
+}
+.c-heading p{
+    font-family:Roboto;
+    color:#cecece;
+    font-size:0.8rem;
+    font-weight:lighter;
+    margin:0px;
+    padding:0px;
+}
+.c-inputs{
+    margin:15px 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+}
+.c-inputs input{
+    width:250px;
+    height:45px;
+    background-color:transparent;
+    border:none;
+    border-bottom: 1px solid rgba(251,251,251,0.1);
+    outline:none;
+    margin:10px 0px;
+    box-sizing: border-box;
+    color:#f4f4f4;
+    display:flex;
+}
+.c-inputs textarea{
+    width:250px;
+    height:200px;
+    outline:none;
+    background-color: rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(251,251,251,0.1);
+    color:#f4f4f4;
+    padding:10px;
+    font-size:1.2rem;
+    box-sizing:border-box;
+}
+.c-inputs button{
+    width:200px;
+    height:40px;
+    background-color:#FFFFFF;
+    border:none;
+    outline:none;
+    margin-left:10%;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:2px 2px 30px rgba(0,0,0,0.1);
+    letter-spacing:1px;
+}
+.c-inputs input:focus, .c-inputs textarea:focus{
+    border-bottom:1px solid rgba(252, 252,252, 1.00);
+    transition: all ease 1s; 
+}
+.c-inputs button:hover{
+    transform: scale(1.01);
+    background-color:#E8A89B;
+}
+.map{
+    filter:grayscale(0.2);
+    box-shadow:2px 2px 30px rgba(0,0,0,0.2);
+    border:2px solid #FFFFFF;
+    margin-top:3%;
+}
+footer{
+    background-color:black;
+    color:white;
+    width:100%;
+    border-radius:5%;  
+    position:sticky;
+    bottom:0%;
+}
+.foot p{
+    width:100%;
+    text-align:center;
+    margin-bottom:2px;
+}
+.sociall{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+}
+.sociall a{
+    padding:10px;
+}

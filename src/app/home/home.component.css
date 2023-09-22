@@ -1,0 +1,79 @@
+.home{
+    height: 80vh;
+    align-items: left;
+    padding: 0 2%;
+}
+.home-content h1{
+    font-size:30px;
+    line-height:1.2;
+}
+.home-content h1 span{
+    color:hwb(197 23% 40%);
+}
+.home-content h3{
+    font-size:55px;
+-webkit-text-stroke: .5px #fff;
+}
+.home-content p{
+    font-size: 20px;
+    margin-top:20px;
+}
+.home-sci{
+    margin-top:50px;
+}
+.home-sci a{
+    display:inline-flex;
+    width:40px;
+    height: 40px;
+    background-color: antiquewhite;
+    border: 2px solid hwb(200 10% 49%);
+    border-radius:50%;
+
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left:12px;
+}
+.home-sci a:hover{
+   
+    width:60px;
+    height: 60px;
+    background-color: hwb(200 10% 49%) ;
+    border: 2px solid antiquewhite;
+    color:white;   
+    transition: 0.5s;  
+}
+.btn{
+    margin-top:50px;
+    padding: 12px 35px;
+    background: hwb(197 23% 40%);
+    border-radius: 40px;
+    font-size:17px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #00abf0;;
+    margin-bottom:20px;
+}
+.btn:hover{
+    background: #fff;
+    color:hwb(197 23% 40%);
+    font-size:20px;
+}
+.home-photo {
+         margin-left: 0px;
+         margin-top:10px;
+         margin-bottom:50px;
+    align-items: left;
+    justify-content: left;
+    
+}
+
+.home-photo img {
+    width: 100%; /* Make the image responsive within its container */
+    border-radius: 50%; /* Add border-radius for a stylish look */
+    /* box-shadow: 0 0 10px hsla(0, 9%, 62%, 0.2); */
+    box-shadow:10px 10px 0px hsla(195, 95%, 30%, 0.702);
+    padding-right: 4%;
+}
